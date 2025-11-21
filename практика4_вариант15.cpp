@@ -8,8 +8,8 @@ int main() {
     float x, y;
     std::cout << "Введите X и Y: ";
     std::cin >> x >> y;
-  
-    float R = sin(x / y);
+
+    float R = asin(y / x);
     float S = exp(-3 * x) + cbrt(y);
 
     std::cout << "R = " << R << std::endl;
@@ -21,6 +21,7 @@ int main() {
     system("pause");
     return 0;
 }
+
 
 
 
