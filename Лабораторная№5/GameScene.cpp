@@ -121,7 +121,7 @@ void UpdateGameScene(void* pData, GameView& view, float deltaSec)
 {
     GameScene* pLogic = (GameScene*)pData;
 
-    //Логика Врагов
+    //Логика врагов
     for (auto& enemy : pLogic->enemies)
     {
         // Двигаем врага
