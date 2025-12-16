@@ -21,7 +21,7 @@ def generate_test_array(size):
     return [random.uniform(0.0, 100.0) for _ in range(size)]
 
 def run_test(num_iterations, array_size):
-    print(f"\n--- Тест: {num_iterations} итераций, размер массива {array_size} ---")
+    print(f"\nтест: {num_iterations} итераций, размер массива {array_size}")
 
     test_data_sets = [generate_test_array(array_size) for _ in range(num_iterations)]
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     print("=" * 60)
     print("СРАВНЕНИЕ ПРОИЗВОДИТЕЛЬНОСТИ: C++ vs PYTHON")
-    print("Задача: вычисление среднего арифметического массива float")
+    print("Задача: вычисление среднего арифметического по массиву")
     print("=" * 60)
 
     results_table = []
