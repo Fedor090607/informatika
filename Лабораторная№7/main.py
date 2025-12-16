@@ -6,7 +6,7 @@ from collections import namedtuple
 try:
     cpp_lib = ctypes.CDLL('./lab_6.dll')
 except FileNotFoundError as e:
-    print(f"Ошибка: Не найден файл DLL. Убедитесь, что lab_6.dll находится в той же папке, что и этот скрипт.")
+    print(f"Ошибка: Не найден файл DLL. Убедитесь, что lab_7.dll находится в той же папке, что и этот скрипт.")
     print(f"Текущая ошибка: {e}")
     exit(1)
 
