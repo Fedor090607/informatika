@@ -1,6 +1,6 @@
 #include "pch.h"
 #define STDMODULE_EXPORTS
-#include "mean.h"  // Заголовочный файл для функции среднего
+#include "mean.h"  
 #include <chrono>
 
 STDMODULE_API float calculate_mean(float* array, size_t size, double* elapsed_time_ms) {
