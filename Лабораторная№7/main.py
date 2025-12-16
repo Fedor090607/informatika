@@ -65,6 +65,7 @@ if __name__ == "__main__":
     test_configs = [
         TestConfig(10000, 1000),
         TestConfig(50000, 1000),
+        TestConfig(100000, 1000),
     ]
 
     print("=" * 60)
@@ -95,4 +96,3 @@ if __name__ == "__main__":
     print("\nВЫВОД:")
     avg_speedup = sum(r['py_time_sec'] / r['cpp_time_sec'] for r in results_table) / len(results_table)
     print(f"C++ модуль в среднем в {avg_speedup:.2f} раз быстрее Python.")
-
